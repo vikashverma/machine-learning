@@ -1,0 +1,14 @@
+package: git.periscope-solutions.com/price/queryservice
+import:
+- package: github.com/alonsovidales/go_ml
+  repo: git@github.com:alonsovidales/go_ml.git
+  vcs: git
+- package: github.com/sjwhitworth/golearn
+  repo: git@github.com:sjwhitworth/golearn.git
+  vcs: git
+- package: github.com/vikashvverma/goml
+  repo: git@github.com:vikashvverma/goml.git
+  vcs: git
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
