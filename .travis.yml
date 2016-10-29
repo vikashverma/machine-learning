@@ -1,0 +1,22 @@
+language: go
+sudo: required
+install: true
+go:
+  - 1.6.3
+env:
+  global:
+    - GOARCH=amd64
+before_install:
+  - sudo ifconfig
+  - sudo add-apt-repository ppa:masterminds/glide && sudo apt-get update
+  - sudo apt-get install glide
+  - go env && pwd
+script:
+  - go test $(glide nv)
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+matrix:
+  allow_failures:
+    - go: tip
