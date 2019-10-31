@@ -1,14 +1,14 @@
-#Machine Learning Resources
+# Machine Learning Resources
 
-# References
+## References
 
 
 
-## Cheat Sheets
+### Cheat Sheets
 
 - [Numpy & Pandas](https://storage.googleapis.com/supplemental_media/udacityu/5428018709/numpy_pandas_cheatsheet.pdf)
 
-## Articles
+### Articles
 
 - [Gradient Boosting](https://storage.googleapis.com/supplemental_media/udacityu/367378584/Intro%20to%20Boosting.pdf)
 - [Boosting Approcah to ML](https://www.cs.princeton.edu/courses/archive/spring07/cos424/papers/boosting-survey.pdf)
@@ -19,6 +19,6 @@
 
 
 
-## Websites
+### Websites
 
 - ​
